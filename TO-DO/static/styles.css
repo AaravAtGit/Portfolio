@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: #E4F9F5;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+h1 {
+    color: #112D4E;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+    background-color: #11999E;
+    color: #F9F7F7;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+  }
+  
+th {
+    background-color: #11999E;
+  }
+  
+/* tr:nth-child(even) {
+    /* background-color: lightyellow; 
+  } */
+  

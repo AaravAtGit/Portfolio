@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <form action="/add" method="post">
+      <input type="text" name="todo" placeholder="Add a to-do item">
+      <input type="submit" value="Add">
+    </form>
+    <table>
+      <tr>
+        <th>To-Do Item</th>
+        <th>Action</th>
+      </tr>
+      {% for todo in todos %}
+      <tr>
+        <td>{{ todo.content }}</td>
+        <td>
+          <form action="/delete/{{ todo.id }}" method="post">
+            <button type="submit">Delete</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
