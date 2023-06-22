@@ -2,7 +2,7 @@ import requests
 import pandas
 
 auth = {
-    "Authorization": "OTg1ODM5NzYxNDU1NDQ4MTE0.Gj28Bo.zqaq0OXx9YEzzksvdyM-nFBZI7N9DPRrHRByQM"
+    "Authorization": ""
 }
 
 
