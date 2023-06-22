@@ -3,7 +3,7 @@ import pyttsx3
 from time import sleep
 from datetime import datetime
 
-API_KEY = "e6cd56e35cbf40bfb607f504efa6b12b"
+API_KEY = ""
 
 
 engine = pyttsx3.init()
